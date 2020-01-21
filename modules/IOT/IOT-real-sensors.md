@@ -22,14 +22,14 @@ Current options available include:
   
 -	Other kits and guides on how to connect them to the Quickstart service are
 	available at the Recipes page:
-	https://developer.ibm.com/recipes
+	https://developer.ibm.com/recipes/tutorials/?s=quickstart+%2Biot
 
 If ethernet access to the internet is available, we will use the ARM kit as an example.
 
 Following the "Quickstart" guide supplied in the kit, connect the device to the 
 internet, and identify its Device Id from the onboard display.
 
-In the Node-RED editor screen, add another `IBM IOT App in` node, update the 
+In the Node-RED editor screen, check for the `IBM IOT App In` node; if not listed, use the [Node-RED Manage Palette process(/node-red-manage-palette.md) to install the `node-red-contrib-scx-ibmiotapp` package. Now add an `IBM IOT App in` node, update the 
 config to connect to the new Device Id, and link into the existing flow:
 
 ![](/media/65f108b661c7567007308b122bd32d9e.png)
